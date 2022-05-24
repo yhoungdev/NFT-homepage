@@ -4,7 +4,7 @@ function Third() {
   return (
     <>
 
-<Box background={'purple.600'} height='100vh' padding={'9em 0'}>
+<Box background={'purple.600'} height='110vh' padding={'5em 0'}>
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          
