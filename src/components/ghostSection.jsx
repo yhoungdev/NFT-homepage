@@ -59,9 +59,9 @@ function Ghost() {
 
     <Box background={'pink.200'} padding={'9em 0'} position='relative' data-aos='fade-up'>
       <div className="container ">
-       <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
+       <Flex display={['column','flex']} gap='1em' justifyContent='center' alignContent={'center'} >
          
-          <Box padding={'2em 2em'} position='relative' borderRadius='1em' border={'4px solid black'} width={['100%','40vw']} background='whitesmoke' data-aos="zoom-in">
+          <Box padding={'2em 1em'} position='relative' borderRadius='1em' border={'4px solid black'} width={['100%','40vw']} background='whitesmoke' data-aos="zoom-in">
             <Center>
               <Box position={['static','absolute']}>
                 <Avatar height={'6em'} width='6em' src={Monkey}/>
@@ -71,7 +71,7 @@ function Ghost() {
             
 
              <Box marginTop={['1em ', '5em ']}>
-             <Text className='title' fontSize={'3em'} textAlign='center'>GET YOUR GHOSTS</Text>
+             <Text className='title' fontSize={'2.5em'} textAlign='center'>GET YOUR GHOSTS</Text>
             <Text textAlign={'center'} className='text-font'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
@@ -81,6 +81,30 @@ function Ghost() {
             </Center>
           </Box>
           </Box>
+
+          {/* second section for box */}
+          <Box padding={'2em 1em'} marginTop={['1em','0']} position='relative' borderRadius='1em' border={'4px solid black'} width={['100%','40vw']} background='whitesmoke' data-aos="zoom-in">
+            <Center>
+              <Box position={['static','absolute']}>
+                <Avatar height={'6em'} width='6em' src={Monkey}/>
+              </Box>
+            </Center>
+
+            
+
+             <Box marginTop={['1em ', '5em ']} >
+             <Text className='title' fontSize={'2.5em'} textAlign='center'>GET YOUR GHOSTS</Text>
+            <Text textAlign={'center'} className='text-font'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
+            </Text>
+            <Center>
+            <Button   boxShadow='-5px 6px 2px black' p={'2em 4em'} background='red.300' color={'white'} margin='4em 0'>VIew On OpenSea</Button>
+            </Center>
+          </Box>
+          </Box>
+
+      
 
       
        </Flex>
