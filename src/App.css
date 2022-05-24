@@ -63,7 +63,11 @@ mobile verion */
   }
 
   .move {
-    bottom: -1  em !important;
+    bottom: -2em !important;
+  }
+
+  .move img {
+    width: 4em;
   }
 
   .btn-store {
