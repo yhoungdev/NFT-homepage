@@ -10,10 +10,16 @@
   src: url('../src/font/Gopher-Black/Gopher-Black.ttf');
 }
 
+@font-face {
+  font-family:   Monumentum  ;
+  src: url('../src/font/Monomentum/MonumentExtended-Ultrabold.otf');
+}
+
 .font {
 
-  font-family: gopher;
+  font-family: Monumentum;
   font-size: 15em;
+  
 }
 
 .title {
