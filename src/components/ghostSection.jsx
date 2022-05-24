@@ -77,7 +77,7 @@ function Ghost() {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
             </Text>
             <Center>
-            <Button p={'2em 4em'} background='red.300' color={'white'} margin='4em 0'>VIew On OpenSea</Button>
+            <Button   boxShadow='-5px 6px 2px black' p={'2em 4em'} background='red.300' color={'white'} margin='4em 0'>VIew On OpenSea</Button>
             </Center>
           </Box>
           </Box>

@@ -17,7 +17,7 @@ function Fourth() {
                         </Text>
                         <Box margin={'2em 0'}>
                           <Flex justifyContent={['center','left']}>
-                           <Button padding={'2em 2em'} background='black' color={'white'} data-aos='zoom-out-up' data-aos-duration='5000'>View on OpenSea</Button>
+                           <Button   boxShadow='-5px 6px 2px black' padding={'2em 2em'} background='black' color={'white'} data-aos='zoom-out-up' data-aos-duration='5000'>View on OpenSea</Button>
                           </Flex>
                         </Box>
                    </Box>

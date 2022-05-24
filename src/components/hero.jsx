@@ -17,7 +17,9 @@ function Hero() {
         </Box>
       </Center>
         <Box textAlign={'center'} marginTop='3em'>  
-          <Button padding={'2em 4em'} border='3px solid black' background={'blue.300'} fontWeight='bolder' textAlign={'center'}>View on OpenSea</Button>
+          <Button padding={'2em 4em'} border='3px solid black' background={'blue.300'} fontWeight='bolder' textAlign={'center'} 
+            boxShadow='-5px 6px 2px black'
+          >View on OpenSea</Button>
         </Box>
       </Box>
     </div>
