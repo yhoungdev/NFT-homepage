@@ -23,7 +23,7 @@ function Fourth() {
                    </Box>
 
                    <Box  width={['100%', '50%']}>
-                       <img src={Nft} className='nft' data-aos='fade-up-left'/>
+                       <img src={Nft} className='nft' data-aos='fade-up-right'/>
                    </Box>
                   </Flex>
 
