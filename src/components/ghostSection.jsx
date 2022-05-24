@@ -72,7 +72,7 @@ function Ghost() {
 
              <Box marginTop={['1em ', '5em ']}>
              <Text className='title' fontSize={'3em'} textAlign='center'>GET YOUR GHOSTS</Text>
-            <Text textAlign={'center'}>
+            <Text textAlign={'center'} className='text-font'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aut facilis deleniti fuga, eligendi unde voluptatibus voluptatum alias distinctio eveniet dolorum soluta, nisi earum quia fugiat dolorem maxime maiores. Beatae.
             </Text>

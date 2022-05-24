@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
 @font-face {
   font-family: Gopher;
   src: url('../src/font/Gopher-Black/Gopher-Black.ttf');
@@ -40,6 +41,11 @@ body {
 }
 /* 
 mobile verion */
+
+.text-font {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 2;
+}
 
 @media screen and (max-width: 600px) {
   .font {

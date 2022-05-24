@@ -9,7 +9,7 @@ function Hero() {
       </Box>
       
           <Box padding='3em 0' height={'82vh'} position='relative' zIndex={'999'}>
-      <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='zoom-out-up'>GHOST</Text>
+      <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='fade-up'>GHOST</Text>
 
       <Center>
       <Box>
