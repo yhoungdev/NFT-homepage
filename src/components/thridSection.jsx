@@ -68,8 +68,8 @@ function Third() {
              <Text className='title' fontSize={'3em'} textAlign='center'>RARITY</Text>
 
              <Box margin={'3em 0'}>
-                  <Center>
-                  <Flex gap={'2'} overflow='hidden' flexWrap={'wrap'}>
+                
+                  <Flex gap={'2'} overflow='hidden' flexWrap={'wrap'} justify='center'>
                  
                  {
                    samples.map ( item => {
@@ -82,7 +82,7 @@ function Third() {
                  }
                
                </Flex>
-                  </Center>
+              
              <Box>
                
             <Center>
