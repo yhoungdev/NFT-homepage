@@ -10,7 +10,7 @@ import Ghost from '../components/ghostSection'
 import Third from '../components/thridSection'
 import Fourth from '../components/fourthSection'
 import Footer from '../components/Footer'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+// import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 function Homepage() {
   return (
     <>
