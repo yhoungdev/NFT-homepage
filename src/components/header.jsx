@@ -14,9 +14,9 @@ function Header() {
   return (
     <>
           <Box display={['none','block']}>
-          <Flex justify={'center'} padding='1em' >
+          <Flex justify={'center'} padding='1em'  >
             <Box background='black' padding={'1em 3em'} color='white' borderRadius={'1em'}>
-                <UnorderedList listStyleType={'none'} display='flex' gap={'8'}>
+                <UnorderedList listStyleType={'none'} display='flex' gap={'8'} alignItems='center'>
                     <ListItem mt='2'>
                         <Text>Ghost</Text>
                     </ListItem>
