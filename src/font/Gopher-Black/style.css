@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gopher';
+    src: local('Gopher Black'), local('Gopher-Black'),
+        url('Gopher-Black.woff2') format('woff2'),
+        url('Gopher-Black.woff') format('woff'),
+        url('Gopher-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
