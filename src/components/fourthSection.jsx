@@ -10,13 +10,15 @@ function Fourth() {
 
                   <Flex flexDirection={['column','row']}>
                   <Box data-aos='fade-up-right' width={['100%', '60%']}>
-                       <Text className='title' fontSize={'2em'}>Whats on Your Mind</Text>
-                        <Text pr='5em'>
+                       <Text className='title' fontSize={'2em'} textAlign={['center', 'left']} marginBottom='1em'>Whats on Your Mind</Text>
+                        <Text pr={['0','5em']} textAlign={['center','left']}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum rerum voluptatibus ipsum omnis. Numquam inventore, totam laudantium odit nemo nisi quia repellendus exercitationem esse consequatur, sint impedit ipsum aspernatur. Obcaecati.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, illum dignissimos doloremque et reprehenderit, dolore accusamus error facilis ullam consequatur odit. Quo at nulla quidem commodi, culpa laborum. Voluptates, consequuntur.
                         </Text>
                         <Box margin={'2em 0'}>
-                          <Button padding={'2em 2em'} background='black' color={'white'}>View on OpenSea</Button>
+                          <Flex justifyContent={['center','left']}>
+                           <Button padding={'2em 2em'} background='black' color={'white'}>View on OpenSea</Button>
+                          </Flex>
                         </Box>
                    </Box>
 

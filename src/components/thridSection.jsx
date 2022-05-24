@@ -61,22 +61,28 @@ function Third() {
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          
-          <Box padding={'1em 2em'} position='relative'  borderRadius='1.5em' border={'5px solid black'} width={['100%','40vw']} background='whitesmoke'
+          <Box padding={'1em 2em'} position='relative' data-aos='zoom-out-down'  borderRadius='1.5em' border={'5px solid black'} width={['100%','40vw']} background='whitesmoke'
           
           >
         
              <Text className='title' fontSize={'3em'} textAlign='left'>RARITY</Text>
 
              <Box margin={'3em 0'}>
-                <Flex gap={'2'} overflow='hidden' flexWrap={'wrap'}>
-                  {
-                    samples.map ( item => {
-                      return (
-                        <img src={item.url} className='samples'/>
-                      )
-                    })
-                  }
-                </Flex>
+                  <Center>
+                  <Flex gap={'2'} overflow='hidden' flexWrap={'wrap'}>
+                 
+                 {
+                   samples.map ( item => {
+                     return (
+                      
+                         <img src={item.url} className='samples'/>
+                  
+                     )
+                   })
+                 }
+               
+               </Flex>
+                  </Center>
              <Box>
                
             <Center>

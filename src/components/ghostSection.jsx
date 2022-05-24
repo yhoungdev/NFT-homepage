@@ -57,7 +57,7 @@ function Ghost() {
   ]
   return (
 
-    <Box background={'pink.200'} padding={'9em 0'} position='relative'>
+    <Box background={'pink.200'} padding={'9em 0'} position='relative' data-aos='fade-up'>
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          

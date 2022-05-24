@@ -8,7 +8,7 @@ function Footer() {
                 
                 <Center>
                 <Box width={'50vw'}>
-                    <Text className='title' fontSize={'5em'} textAlign='center'>THANK YOU FOR ATTENTION</Text>
+                    <Text className='title' fontSize={['1em','5em']} textAlign='center'>THANK YOU FOR ATTENTION</Text>
                 </Box>
                 </Center>
 
