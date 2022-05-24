@@ -30,3 +30,11 @@
 body {
   overflow-x: hidden;
 }
+
+.samples {
+  width: 4.5em;
+  border-radius: 10%;
+  text-align: center;
+  align-self: center;
+  
+}

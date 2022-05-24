@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage';
 import AOS from 'aos'
 import "aos/dist/aos.css";
 
+
 function App() {
   useEffect(() => {
     AOS.init();
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Homepage/>
-      <div className="font">hello w orl</div>
+  
     </div>
   )
 }

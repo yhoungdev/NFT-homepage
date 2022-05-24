@@ -10,6 +10,7 @@ import Ghost from '../components/ghostSection'
 import Third from '../components/thridSection'
 import Fourth from '../components/fourthSection'
 import Footer from '../components/Footer'
+import { Parallax } from 'react-scroll-parallax'
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 function Homepage() {
   return (
@@ -18,10 +19,14 @@ function Homepage() {
              <Header/>
              <Hero/>
              <Ghost/>
-             <Third/>
+             <Parallax speed={'10'}>
+                <Third/>
+              </Parallax>
              <Fourth/>
              <Footer/>
         </Box>
+
+    
     </>
   )
 }
