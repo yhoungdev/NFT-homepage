@@ -61,7 +61,7 @@ function Ghost() {
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          
-          <Box padding={'2em 2em'} position='relative' borderRadius='0.3em' border={'3px solid black'} width={['100%','40vw']} background='whitesmoke' data-aos="zoom-in">
+          <Box padding={'2em 2em'} position='relative' borderRadius='1em' border={'4px solid black'} width={['100%','40vw']} background='whitesmoke' data-aos="zoom-in">
             <Center>
               <Box position={['static','absolute']}>
                 <Avatar height={'6em'} width='6em' src={Monkey}/>
@@ -86,7 +86,7 @@ function Ghost() {
        </Flex>
       </div>
 
-      <Box position={'absolute'} bottom='-20'>
+      <Box position={'absolute'} bottom='-20' className='move'>
 
           <Flex justifyContent={'center'}>
           {

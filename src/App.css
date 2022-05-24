@@ -61,4 +61,18 @@ mobile verion */
     background-color: rgba(0, 0, 0, 0.272) !important;
    
   }
+
+  .move {
+    bottom: -1  em !important;
+  }
+
+  .btn-store {
+    display: absolute !important;
+    bottom: 0;
+    margin-top: 22em !important;
+
+
+ 
+
+  }
 }

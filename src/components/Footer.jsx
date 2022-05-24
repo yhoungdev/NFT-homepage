@@ -12,7 +12,7 @@ function Footer() {
                 </Box>
                 </Center>
 
-                <Box textAlign={'center'} marginTop='5em'>
+                <Box textAlign={'center'} marginTop='5em' className='btn-store'>
                      <Button padding={'2em 4em'} border='3px solid black' background={'purple.800'} fontWeight='bolder' textAlign={'center'}>View on OpenSea</Button>
                 </Box>
             </div>
