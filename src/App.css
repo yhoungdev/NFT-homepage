@@ -61,4 +61,8 @@ mobile verion */
     background-color: rgba(0, 0, 0, 0.272) !important;
    
   }
+
+  .move {
+    bottom: -1  em !important;
+  }
 }
