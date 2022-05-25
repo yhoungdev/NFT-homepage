@@ -65,7 +65,7 @@ function Third() {
           
           >
         
-             <Text className='title' fontSize={'3em'} textAlign='center'>RARITY</Text>
+             <Text className='title' fontSize={'3em'} textAlign='center'>Collections</Text>
 
              <Box margin={'3em 0'}>
                 
