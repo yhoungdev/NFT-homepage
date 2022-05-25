@@ -95,3 +95,13 @@ mobile verion */
     overflow-x: hidden !important;
   }
 }
+
+
+/* For tablet screens  */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .font {
+    font-size: 5em;
+  }
+
+  
+}
