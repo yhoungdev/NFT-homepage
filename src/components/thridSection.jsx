@@ -57,7 +57,7 @@ function Third() {
   return (
     <>
 
-<Box background={'purple.600'} height='110vh' padding={'5em 0'} position='relative' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653471114/bg_1_p82uof.jpg'} backgroundSize='cover' backgroundRepeat={'no-repeat'}>
+<Box background={'purple.600'} height='110vh' padding={'5em 0'} position='relative' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653480027/samples/bg_2_fmtm5v.svg'} backgroundSize='cover' backgroundRepeat={'no-repeat'}>
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          
