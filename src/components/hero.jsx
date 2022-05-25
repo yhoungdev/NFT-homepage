@@ -13,7 +13,7 @@ function Hero() {
       </Box>
       
      <Box padding='3em 0'>
-      <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='fade-up'>GHOST</Text>
+      <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='fade-up'>GalacticOps</Text>
 
       <Center>
       <Box>
