@@ -57,7 +57,7 @@ function Third() {
   return (
     <>
 
-<Box background={'purple.600'} height='110vh' padding={'5em 0'} position='relative' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653459086/path_hnrmk3.png'} backgroundSize='cover' backgroundRepeat={'no-repeat'}>
+<Box background={'purple.600'} height='110vh' padding={'5em 0'} position='relative' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653471114/bg_1_p82uof.jpg'} backgroundSize='cover' backgroundRepeat={'no-repeat'}>
       <div className="container ">
        <Flex display={'flex'} justifyContent='center' alignContent={'center'} >
          
@@ -98,6 +98,17 @@ function Third() {
       
        </Flex>
       </div>
+
+
+      <Box position={'absolute'} bottom='0' left={0} right='0'>
+      <Flex justifyContent={'space-between'}>
+
+
+        <img src="https://res.cloudinary.com/dhkccnvyn/image/upload/v1653473782/twemoji_volcano_ksuy56.svg" alt="" />
+        <img src="https://res.cloudinary.com/dhkccnvyn/image/upload/v1653473782/twemoji_volcano_ksuy56.svg" alt="" />
+      </Flex>
+      </Box>
+
     </Box>
     
     </>

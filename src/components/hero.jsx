@@ -5,7 +5,7 @@ function Hero() {
     <div className="container" >
       
       <Box position={'absolute'} top='0' left={'0'} className='leave'>
-        <img src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653408757/samples/leaf3_luzk2x.svg'  width={'50%'}/>  
+        <img src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653474898/samples/45756-earth-globe-looped-icon_mqdgbc.gif'  width={'50%'}/>  
       </Box>
       
           <Box padding='3em 0' height={'82vh'} position='relative' zIndex={'999'}>
