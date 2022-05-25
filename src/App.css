@@ -90,4 +90,8 @@ mobile verion */
  
 
   }
+
+  body  {
+    overflow-x: hidden !important;
+  }
 }
