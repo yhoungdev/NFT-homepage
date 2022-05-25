@@ -57,7 +57,7 @@ function Ghost() {
   ]
   return (
 
-    <Box background={'pink.200'} padding={'9em 0'} position='relative' data-aos='fade-up' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653457772/jirycdhr17cs3odunq6l.png'}>
+    <Box background={'pink.200'} padding={'9em 0'} position='relative' data-aos='fade-up' backgroundImage={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1653457772/jirycdhr17cs3odunq6l.png'} backgroundSize='cover' backgroundRepeat={'no-repeat'}>
       <div className="container ">
        <Flex display={['column','flex']} gap='1em' justifyContent='center' alignContent={'center'} >
          
