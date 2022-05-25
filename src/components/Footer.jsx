@@ -3,7 +3,7 @@ import {Box, Text, Button, Center} from '@chakra-ui/react'
 function Footer() {
   return (
     <>
-        <Box background={'black'} padding='4em 0' color={'white' } >
+        <Box background={'black'} padding='4em 0' color={'white' } display={['none','block']} >
             <div className="container">
                 
                 <Center>
