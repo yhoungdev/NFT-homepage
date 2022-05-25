@@ -2,13 +2,13 @@ import { Button, Container, Text, Box, Center } from '@chakra-ui/react'
 
 function Hero() {
   return (
-    <div className="container" >
+    <Box className="container"  >
       
-      <Box position={'absolute'} top='0' left={'0'} className='leave'>
-        <img src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653474898/samples/45756-earth-globe-looped-icon_mqdgbc.gif'  width={'50%'}/>  
+      <Box position={'absolute'} top='0' left={'0'} className='leave' >
+        <img src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653478395/samples/emojione-v1_globe-showing-europe-africa_eizwr3.svg'  width={'50%'}/>  
       </Box>
       
-          <Box padding='3em 0' height={'82vh'} position='relative' zIndex={'999'}>
+     <Box padding='3em 0' height={'82vh'} position='relative' zIndex={'999'}  >
       <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='fade-up'>GHOST</Text>
 
       <Center>
@@ -17,12 +17,12 @@ function Hero() {
         </Box>
       </Center>
         <Box textAlign={'center'} marginTop='3em'>  
-          <Button padding={'2em 4em'} border='3px solid black' background={'blue.300'} fontWeight='bolder' textAlign={'center'} 
+          <Button padding={'2em 4em'} border='3px solid black' background={'blue.300'}  fontWeight='bolder' textAlign={'center'} 
             boxShadow='-5px 6px 2px black'
           >View on OpenSea</Button>
         </Box>
       </Box>
-    </div>
+    </Box>
   )
 }
 

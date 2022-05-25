@@ -15,6 +15,10 @@
   src: url('../src/font/Monomentum/MonumentExtended-Ultrabold.otf');
 }
 
+.header-top {
+  background-color: rgba(0, 0, 0, 0.587);
+}
+
 .font {
 
   font-family: Monumentum;
