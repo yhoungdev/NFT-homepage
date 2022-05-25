@@ -5,7 +5,7 @@ function Fourth() {
   return (
     <>
 
-        <Box background={'green.300'} padding='10em 0' height={'100vh'} backgroundImage='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653478854/samples/bg_ueyolu.svg'>
+        <Box background={'green.300'} padding='10em 0'  backgroundImage='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653478854/samples/bg_ueyolu.svg'>
              <div className="container">
 
                   <Flex flexDirection={['column','row']}>
