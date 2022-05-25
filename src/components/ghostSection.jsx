@@ -110,7 +110,7 @@ function Ghost() {
        </Flex>
       </div>
 
-      <Box position={'absolute'} bottom='-20' className='move'>
+      <Box position={'absolute'} bottom='-20' className='move' overflowX={'hidden'}>
 
           <Flex justifyContent={'center'}>
           {
