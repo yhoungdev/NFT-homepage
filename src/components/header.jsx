@@ -13,7 +13,7 @@ import {GoThreeBars} from 'react-icons/go'
 function Header() {
   return (
     <>
-          <Box display={['none','block']}>
+          <Box display={['none','block']} >
           <Flex justify={'center'} padding='1em'  >
             <Box className='header-top' padding={'1em 3em'} color='white' borderRadius={'1em'}>
                 <UnorderedList listStyleType={'none'} display='flex' gap={'8'} alignItems='center'>

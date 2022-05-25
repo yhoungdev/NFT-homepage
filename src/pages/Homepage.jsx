@@ -15,8 +15,8 @@ import { Parallax } from 'react-scroll-parallax'
 function Homepage() {
   return (
     <>
-        <Box backgroundColor={'purple.400'} position='relative' top='0' h='100vh'>
-             <Header/>
+      
+            
              <Hero/>
              <Ghost/>
              <Parallax speed={'10'}>
@@ -24,7 +24,7 @@ function Homepage() {
               </Parallax>
              <Fourth/>
              <Footer/>
-        </Box>
+      
 
     
     </>
