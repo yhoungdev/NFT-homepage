@@ -4,7 +4,7 @@ import Header from './header';
 function Hero() {
   return (
   
-    <Box backgroundColor={'blue.100'} height='100vh' backgroundImage='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653483162/samples/unsplash_U6WvLJU0l6o-removebg-preview_mbizq0.png' backgroundRepeat={'no-repeat'} backgroundPosition='bottom' backgroundSize={'cover'} >
+    <Box backgroundColor={'blue.100'}  backgroundImage='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653483162/samples/unsplash_U6WvLJU0l6o-removebg-preview_mbizq0.png' backgroundRepeat={'no-repeat'} backgroundPosition='bottom' backgroundSize={'cover'} >
         <Header/>
         <Box className="container"  position='relative' zIndex={'999'} backgroundColor='' >
       
@@ -12,7 +12,7 @@ function Hero() {
         <img src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1653478395/samples/emojione-v1_globe-showing-europe-africa_eizwr3.svg'  width={'50%'}/>  
       </Box>
       
-     <Box padding='3em 0'   >
+     <Box padding='3em 0'>
       <Text color='white' textAlign={'center'} className='font' stroke={'1px solid black'} data-aos='fade-up'>GHOST</Text>
 
       <Center>
